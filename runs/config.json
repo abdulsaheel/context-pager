@@ -1,0 +1,17 @@
+{
+ "n_transcripts": 8,
+ "questions_per_transcript": 10,
+ "segment_chars": 240000,
+ "budget_frac": 0.25,
+ "tail_items": 4,
+ "max_recall": 5,
+ "answer_model": "sonnet",
+ "judge_models": [
+  "opus",
+  "sonnet"
+ ],
+ "seed": 0,
+ "exclude": [
+  "e26ae883-b3dc-4521-9710-fc90c4e3e4fa"
+ ]
+}

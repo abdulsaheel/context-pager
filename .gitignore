@@ -1,0 +1,7 @@
+kev/
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+kev-server.log
+.DS_Store
