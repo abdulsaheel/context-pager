@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="system-ui,sans-serif" font-size="12"><rect width="760" height="460" fill="white"/>
+<text x="64" y="24" font-size="15" font-weight="600">Answer quality vs. context size (7 sessions, 68 questions)</text>
+<line x1="64" x2="736" y1="404" y2="404" stroke="#e6e8eb"/><text x="56" y="408" text-anchor="end" fill="#555">0%</text>
+<line x1="64" x2="736" y1="322.0" y2="322.0" stroke="#e6e8eb"/><text x="56" y="326.0" text-anchor="end" fill="#555">25%</text>
+<line x1="64" x2="736" y1="240.0" y2="240.0" stroke="#e6e8eb"/><text x="56" y="244.0" text-anchor="end" fill="#555">50%</text>
+<line x1="64" x2="736" y1="158.0" y2="158.0" stroke="#e6e8eb"/><text x="56" y="162.0" text-anchor="end" fill="#555">75%</text>
+<line x1="64" x2="736" y1="76" y2="76" stroke="#e6e8eb"/><text x="56" y="80" text-anchor="end" fill="#555">100%</text>
+<text x="64.0" y="422" text-anchor="middle" fill="#555">0%</text>
+<text x="224.0" y="422" text-anchor="middle" fill="#555">25%</text>
+<text x="384.0" y="422" text-anchor="middle" fill="#555">50%</text>
+<text x="544.0" y="422" text-anchor="middle" fill="#555">75%</text>
+<text x="704.0" y="422" text-anchor="middle" fill="#555">100%</text>
+<text x="400.0" y="448" text-anchor="middle" fill="#333">input tokens vs. full context</text>
+<text transform="translate(16,240.0) rotate(-90)" text-anchor="middle" fill="#333">score (Opus grade / 2)</text>
+<line x1="704.0" x2="704.0" y1="86.5806451612903" y2="76.0" stroke="#7a7f87" stroke-width="1.5"/>
+<circle cx="704.0" cy="80.8235294117647" r="5" fill="#7a7f87" stroke="#7a7f87" stroke-width="2"/>
+<text x="713.0" y="84.8235294117647" text-anchor="start" fill="#222">full</text>
+<line x1="92.60926891676604" x2="92.60926891676604" y1="309.94117647058823" y2="267.3333333333333" stroke="#7a7f87" stroke-width="1.5"/>
+<circle cx="92.60926891676604" cy="288.2352941176471" r="5" fill="#7a7f87" stroke="#7a7f87" stroke-width="2"/>
+<text x="101.60926891676604" y="292.2352941176471" text-anchor="start" fill="#222">compact</text>
+<line x1="293.5008870319509" x2="293.5008870319509" y1="287.21212121212125" y2="216.57142857142858" stroke="#7a7f87" stroke-width="1.5"/>
+<circle cx="293.5008870319509" cy="252.05882352941177" r="5" fill="#7a7f87" stroke="#7a7f87" stroke-width="2"/>
+<text x="284.5008870319509" y="256.05882352941177" text-anchor="end" fill="#222">recency</text>
+<line x1="299.8142477747674" x2="299.8142477747674" y1="309.1875" y2="203.8235294117647" stroke="#7a7f87" stroke-width="1.5"/>
+<circle cx="299.8142477747674" cy="252.05882352941177" r="5" fill="#7a7f87" stroke="#7a7f87" stroke-width="2"/>
+<text x="308.8142477747674" y="256.05882352941177" text-anchor="start" fill="#222">random</text>
+<line x1="293.2154188045307" x2="293.2154188045307" y1="183.7714285714286" y2="91.87096774193547" stroke="#c2742b" stroke-width="1.5"/>
+<circle cx="293.2154188045307" cy="131.4705882352941" r="5" fill="#c2742b" stroke="#c2742b" stroke-width="2"/>
+<text x="284.2154188045307" y="135.4705882352941" text-anchor="end" fill="#222">bm25-q</text>
+<line x1="304.98713496195916" x2="304.98713496195916" y1="180.36363636363637" y2="85.37142857142857" stroke="#c2742b" stroke-width="1.5"/>
+<circle cx="304.98713496195916" cy="126.64705882352942" r="5" fill="#c2742b" stroke="#c2742b" stroke-width="2"/>
+<text x="316.98713496195916" y="146.64705882352942" text-anchor="start" fill="#222">embed-q</text>
+<line x1="307.1239486054426" x2="307.1239486054426" y1="179.70588235294116" y2="85.93939393939394" stroke="#c2742b" stroke-width="1.5"/>
+<circle cx="307.1239486054426" cy="124.23529411764707" r="5" fill="#c2742b" stroke="#c2742b" stroke-width="2"/>
+<text x="319.1239486054426" y="129.23529411764707" text-anchor="start" fill="#222">kev-q</text>
+<line x1="435.67718323147477" x2="435.67718323147477" y1="141.59999999999997" y2="99.42857142857142" stroke="#1f6f8b" stroke-width="1.5"/>
+<circle cx="435.67718323147477" cy="119.41176470588235" r="5" fill="#1f6f8b" stroke="#1f6f8b" stroke-width="2"/>
+<text x="444.67718323147477" y="123.41176470588235" text-anchor="start" fill="#222">recency+recall</text>
+<line x1="445.9706567480159" x2="445.9706567480159" y1="104.11428571428573" y2="80.68571428571427" stroke="#1f6f8b" stroke-width="1.5"/>
+<circle cx="445.9706567480159" cy="90.4705882352941" r="5" fill="#1f6f8b" stroke="#1f6f8b" stroke-width="2"/>
+<text x="454.9706567480159" y="94.4705882352941" text-anchor="start" fill="#222">kev-task+recall</text>
+<line x1="322.623893806519" x2="322.623893806519" y1="122.85714285714288" y2="92.88235294117649" stroke="#1f6f8b" stroke-width="1.5"/>
+<circle cx="322.623893806519" cy="107.35294117647058" r="5" fill="#1f6f8b" stroke="#1f6f8b" stroke-width="2"/>
+<text x="331.623893806519" y="99.35294117647058" text-anchor="start" fill="#222">stubs+recall</text>
+<circle cx="283.4553990449018" cy="99.42857142857142" r="5" fill="white" stroke="#1f6f8b" stroke-width="2"/>
+<text x="274.4553990449018" y="103.42857142857142" text-anchor="end" fill="#222">text+recall (partial, no CI)</text>
+<circle cx="72" cy="46" r="5" fill="#7a7f87"/><text x="82" y="50" fill="#333">baseline</text>
+<circle cx="148" cy="46" r="5" fill="#c2742b"/><text x="158" y="50" fill="#333">question-aware</text>
+<circle cx="266" cy="46" r="5" fill="#1f6f8b"/><text x="276" y="50" fill="#333">paging</text>
+</svg>

@@ -5,3 +5,11 @@ __pycache__/
 *.tmp
 kev-server.log
 .DS_Store
+.pytest_cache/
+
+# Raw per-session data is derived from private transcripts and is never published.
+# Only the run configuration is tracked.
+runs/*
+!runs/config.json
+pilot/runs/
+pilot/runs-kev.log

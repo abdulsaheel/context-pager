@@ -1,10 +1,10 @@
 # Solution space beyond "score chunks with Jev/Kev"
 
-Grounding fact from the 38 large top-level sessions on this machine: tool output is 71.5% of transcript
+Grounding fact from the 38 large top-level sessions on the author's machine: tool output is 71.5% of transcript
 content, images 15.6%, assistant thinking 5.8%, tool calls 4.6%. What the user and the assistant actually
 wrote to each other is 2.6%. Most of the context goes to material read once for a side task.
 
-Ordered by what I'd try first. "Tested" means the overnight study measures it; see REPORT.md.
+Ordered by what I'd try first. "Tested" means the study measures it; see [REPORT.md](../REPORT.md).
 
 ## 1. Collapse finished tool chains (tested: `text+recall`)
 Once the assistant has answered a request, the tool calls and outputs behind that answer have usually done

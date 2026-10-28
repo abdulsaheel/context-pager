@@ -1,9 +1,4 @@
-"""Run: uv run python -m pytest -q tests   (or: uv run python tests/test_core.py)"""
-import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+"""Unit tests for the selectors and transcript helpers. Run: uv run pytest -q"""
 from study import selectors as S
 from study.transcripts import clean_items, clean_text, render
 
@@ -55,9 +50,3 @@ def test_render_stubs_evicted():
     out = render(seg, keep={1})
     assert "EVICTED" in out and "first line" in out and "more" not in out and "kept" in out
 
-
-if __name__ == "__main__":
-    for name, fn in list(globals().items()):
-        if name.startswith("test_"):
-            fn()
-    print("ok")

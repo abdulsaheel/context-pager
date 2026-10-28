@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "context-pager: context paging for long assistant sessions"
+type: software
+authors:
+  - family-names: Sahil
+    given-names: Md Abdul
+repository-code: "https://github.com/abdulsaheel/context-pager"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-13"
+abstract: >-
+  A controlled study of how to shrink the context of long coding-assistant sessions: LLM summarization,
+  recency, BM25, embeddings, a decision model, and paging (evicted items become stubs the model can recall by id).
+keywords:
+  - llm agents
+  - context management
+  - long context
+  - evaluation

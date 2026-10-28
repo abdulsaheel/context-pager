@@ -1,8 +1,22 @@
 [project]
 name = "context-pager-study"
 version = "0.1.0"
+description = "Controlled study of context management for long assistant sessions: summarization, retrieval, and paging."
+readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.11,<3.14"
-dependencies = ["numpy>=1.26", "rank-bm25>=0.2.2", "sentence-transformers>=3.0"]
+dependencies = ["numpy>=1.26", "rank-bm25>=0.2.2"]
+
+[project.optional-dependencies]
+# dense-retrieval scorer, needed only to run the full study (pulls in torch)
+embed = ["sentence-transformers>=3.0"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
 
 [tool.uv]
 package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
